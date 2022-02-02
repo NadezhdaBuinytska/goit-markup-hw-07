@@ -1,0 +1,26 @@
+.clients__link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--icons-main-color);
+  transition: color var(--duration) var(--timing-function),
+    border-color var(--duration) var(--timing-function);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+}
+.clients__items {
+  width: calc(100% / 6 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.clients__icons {
+  fill: currentColor;
+}
