@@ -2,8 +2,8 @@
 @import './base/reset';
 @import './base/common';
 @import './components/container';
-@import './layout/logo';
-@import './layout/contacts-section';
+@import './components/logo';
+@import './layout/header';
 @import './layout/hero';
 @import './components/btn';
 @import './utils/visually-hidden';
@@ -12,10 +12,9 @@
 @import './components/section-title';
 @import './layout/team-section';
 @import './layout/work-section';
-@import './components/team-list';
 @import './layout/clients-section';
 @import './layout/basement-section';
 @import './components/social-gallery';
 @import './components/modal';
-@import './components/portfolio-filter';
+@import './layout/portfolio-filter';
 @import './layout/portfolio-section';

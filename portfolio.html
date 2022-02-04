@@ -15,32 +15,33 @@
 </head>
 <body>
     <!-- Шапка сайта-->
-<header class="border-line">
+<header class="header">
     <div class="container header__container">
-        <nav class="nav-page header__container">
+        <nav class="nav-page header__nav">
             <a href="" lang="en" class="logo link">Web<span class="logo__header">Studio</span></a>
-            <ul class="nav-list list header__list">
-                <li class="header__item"><a href="./index.html" class="link header__link">Студия</a></li>
-                <li class="header__item"><a href="./portfolio.html" class="link--active link header__link">Портфолио</a></li>
+            <ul class="header__nav-list list header__list">
+                <li class="header__item"><a href="./index.html"
+                        class="link header__link">Студия</a></li>
+                <li class="header__item"><a href="./portfolio.html" class="header__link--active link header__link">Портфолио</a></li>
                 <li class="header__item"><a href="" class="link header__link">Контакты</a></li>
             </ul>
         </nav>
-    <ul class="contacts list header__list">
-        <li class="contacts__item">
-            <a href="mailto:info@devstudio.com" class="link header__link">
-                <svg class="contacts__icons" width="16px" height="12px">
-                    <use href="./images/icons.svg#icon-mail"></use>
-                </svg>
-                info@devstudio.com</a>
-        </li>
-        <li class="contacts__item">
-            <a href="tel:+380961111111" class="link header__link">
-                <svg class="contacts__icons" width="10px" height="16px">
-                    <use href="./images/icons.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11</a>
-        </li>
-    </ul>
+        <ul class="header__contacts-list list header__list">
+            <li class="header__contacts-item">
+                <a href="mailto:info@devstudio.com" class="link header__link">
+                    <svg class="header__contacts-icons" width="16px" height="12px">
+                        <use href="./images/icons.svg#icon-mail"></use>
+                    </svg>
+                    info@devstudio.com</a>
+            </li>
+            <li class="header__contacts-item">
+                <a href="tel:+380961111111" class="link header__link">
+                    <svg class="header__contacts-icons" width="10px" height="16px">
+                        <use href="./images/icons.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11</a>
+            </li>
+        </ul>
     </div>
 </header>
 <main>
@@ -55,122 +56,137 @@
         <li class="button-item"><button type="button" class="filter-btn"> Дизайн </button></li>
         <li class="button-item"><button type="button" class="filter-btn"> Маркетинг </button></li>
     </ul>
+    <div class="portfolio">
     <ul class="card-set list">
-        <li class="portfolio-item">
-        <a href="" target="_blank" rel="noopener noreferrer nofollow"
-                class="portfolio-link link">
-                <div class="portfolio-items-wrap">
-            <img src="./images/img-portfolio-technocrack-min.jpg" alt="Технокряк" width="370" height="294">
-            <p class="portfolio-img-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
-                </div>
-        <div class="portfolio-border">
-            <h2 class="portfolio-title">Технокряк</h2>
-        <p class="portfolio-category">Веб-сайт</p>
-        </div>
-        </a>
-        </li>
-        <li class="portfolio-item">
+        <li class="card-item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="portfolio-link link">
                 <div class="portfolio-items-wrap">
-                <img src="./images/img-portfolio-new-orlean-min.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
-                <p class="portfolio-img-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus itaque eos adipisci eum iste a natus corrupti provident optio quas.</p>
+                    <img src="./images/img-portfolio-technocrack-min.jpg" alt="Технокряк" width="370" height="294">
+                    <p class="portfolio-img-text">Технокряк это современная площадка распространения коронавируса. Компании
+                        используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </div>
-
-            <div class="portfolio-border">
-                <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-                <p class="portfolio-category">Дизайн</p>
-            </div>
-        
-        </a>
-        </li>
-        <li class="portfolio-item">
-            <a href="" target="_blank" rel="noopener noreferrer nofollow" class="portfolio-link link">
-                <div class="portfolio-items-wrap">
-                <img src="./images/img-portfolio-seafood-min.jpg" alt="Ресторан Seafood" width="370" height="294">
-                    <p class="portfolio-img-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores dolorum iste dolorem voluptatum id aliquid cumque temporibus excepturi ullam est!</p>
-                </div>
-
                 <div class="portfolio-border">
-                <h2 class="portfolio-title">Ресторан Seafood</h2>
-                <p class="portfolio-category">Приложение</p>
+                    <h2 class="portfolio-title">Технокряк</h2>
+                    <p class="portfolio-category">Веб-сайт</p>
                 </div>
-        
-        </a>
+            </a>
         </li>
-        <li class="portfolio-item">
+        <li class="card-item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="portfolio-link link">
                 <div class="portfolio-items-wrap">
-            <img src="./images/img-portfolio-prime-min.jpg" alt="Проект Prime" width="370" height="294">
-                    <p class="portfolio-img-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et quam velit neque, suscipit totam ea! Reprehenderit nostrum ab facilis.</p>
+                    <img src="./images/img-portfolio-new-orlean-min.jpg" alt="Постер New Orlean vs Golden Star" width="370"
+                        height="294">
+                    <p class="portfolio-img-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus itaque
+                        eos adipisci eum iste a natus corrupti provident optio quas.</p>
                 </div>
-
-            <div class="portfolio-border">
-        <h2 class="portfolio-title">Проект Prime</h2>
-        <p class="portfolio-category">Маркетинг</p>
-            </div>
-        </a>
+    
+                <div class="portfolio-border">
+                    <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="portfolio-category">Дизайн</p>
+                </div>
+    
+            </a>
         </li>
-        <li class="portfolio-item">
+        <li class="card-item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="portfolio-link link">
                 <div class="portfolio-items-wrap">
-            <img src="./images/img-portfolio-boxes-min.jpg" alt="Проект Boxes" width="370" height="294">
-                    <p class="portfolio-img-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis debitis veniam eveniet eligendi perspiciatis, earum quaerat autem expedita fugiat facere!</p>
+                    <img src="./images/img-portfolio-seafood-min.jpg" alt="Ресторан Seafood" width="370" height="294">
+                    <p class="portfolio-img-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores dolorum
+                        iste dolorem voluptatum id aliquid cumque temporibus excepturi ullam est!</p>
                 </div>
-            <div class="portfolio-border">
-        <h2 class="portfolio-title">Проект Boxes</h2>
-        <p class="portfolio-category">Приложение</p>
-            </div>
-        </a>
+    
+                <div class="portfolio-border">
+                    <h2 class="portfolio-title">Ресторан Seafood</h2>
+                    <p class="portfolio-category">Приложение</p>
+                </div>
+    
+            </a>
         </li>
-        <li class="portfolio-item">
+        <li class="card-item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="portfolio-link link">
                 <div class="portfolio-items-wrap">
-            <img src="./images/img-portfolio-inspiration-min.jpg" alt="Inspiration has no Borders" width="370" height="294">
-                    <p class="portfolio-img-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A obcaecati reiciendis quaerat architecto, sit sunt corrupti nostrum ad. Sapiente, non?</p>
+                    <img src="./images/img-portfolio-prime-min.jpg" alt="Проект Prime" width="370" height="294">
+                    <p class="portfolio-img-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis et
+                        quam velit neque, suscipit totam ea! Reprehenderit nostrum ab facilis.</p>
                 </div>
-            <div class="portfolio-border">
-            <h2 class="portfolio-title">Inspiration has no Borders</h2>
-            <p class="portfolio-category">Веб-сайт</p>
-            </div>
-        </a>
+    
+                <div class="portfolio-border">
+                    <h2 class="portfolio-title">Проект Prime</h2>
+                    <p class="portfolio-category">Маркетинг</p>
+                </div>
+            </a>
         </li>
-        <li class="portfolio-item">
+        <li class="card-item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="portfolio-link link">
                 <div class="portfolio-items-wrap">
-            <img src="./images/img-portfolio-limited-edition-min.jpg" alt="Издание Limited Edition" width="370" height="294">
-                    <p class="portfolio-img-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, voluptatum placeat? Mollitia in libero nemo blanditiis quos suscipit deleniti temporibus.</p>
+                    <img src="./images/img-portfolio-boxes-min.jpg" alt="Проект Boxes" width="370" height="294">
+                    <p class="portfolio-img-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis debitis
+                        veniam eveniet eligendi perspiciatis, earum quaerat autem expedita fugiat facere!</p>
                 </div>
-            <div class="portfolio-border">
-        <h2 class="portfolio-title">Издание Limited Edition</h2>
-        <p class="portfolio-category">Дизайн</p>    
-            </div>
-        </a>
+                <div class="portfolio-border">
+                    <h2 class="portfolio-title">Проект Boxes</h2>
+                    <p class="portfolio-category">Приложение</p>
+                </div>
+            </a>
         </li>
-        <li class="portfolio-item">
+        <li class="card-item">
+            <a href="" target="_blank" rel="noopener noreferrer nofollow" class="portfolio-link link">
+                <div class="portfolio-items-wrap">
+                    <img src="./images/img-portfolio-inspiration-min.jpg" alt="Inspiration has no Borders" width="370"
+                        height="294">
+                    <p class="portfolio-img-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A obcaecati
+                        reiciendis quaerat architecto, sit sunt corrupti nostrum ad. Sapiente, non?</p>
+                </div>
+                <div class="portfolio-border">
+                    <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                    <p class="portfolio-category">Веб-сайт</p>
+                </div>
+            </a>
+        </li>
+        <li class="card-item">
+            <a href="" target="_blank" rel="noopener noreferrer nofollow" class="portfolio-link link">
+                <div class="portfolio-items-wrap">
+                    <img src="./images/img-portfolio-limited-edition-min.jpg" alt="Издание Limited Edition" width="370"
+                        height="294">
+                    <p class="portfolio-img-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima,
+                        voluptatum placeat? Mollitia in libero nemo blanditiis quos suscipit deleniti temporibus.</p>
+                </div>
+                <div class="portfolio-border">
+                    <h2 class="portfolio-title">Издание Limited Edition</h2>
+                    <p class="portfolio-category">Дизайн</p>
+                </div>
+            </a>
+        </li>
+        <li class="card-item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="portfolio-link link">
                 <div class="portfolio-items-wrap">
                     <img src="./images/img-portfolio-lab-min.jpg" alt="Проект LAB" width="370" height="294">
-                    <p class="portfolio-img-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae optio soluta suscipit ad eos ipsam minus accusamus nesciunt sit tempore?</p>
+                    <p class="portfolio-img-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae optio
+                        soluta suscipit ad eos ipsam minus accusamus nesciunt sit tempore?</p>
                 </div>
-            <div class="portfolio-border">
-        <h2 class="portfolio-title">Проект LAB</h2>
-        <p class="portfolio-category">Маркетинг</p>                
-            </div>
-        </a>
+                <div class="portfolio-border">
+                    <h2 class="portfolio-title">Проект LAB</h2>
+                    <p class="portfolio-category">Маркетинг</p>
+                </div>
+            </a>
         </li>
-        <li class="portfolio-item">
+        <li class="card-item">
             <a href="" target="_blank" rel="noopener noreferrer nofollow" class="portfolio-link link">
                 <div class="portfolio-items-wrap">
-            <img src="./images/img-portfolio-growing-business-min.jpg" alt="Growing Business" width="370" height="294">
-                    <p class="portfolio-img-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem facere et odit ipsa praesentium? Eius illum consequuntur asperiores temporibus pariatur.</p>
+                    <img src="./images/img-portfolio-growing-business-min.jpg" alt="Growing Business" width="370"
+                        height="294">
+                    <p class="portfolio-img-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+                        facere et odit ipsa praesentium? Eius illum consequuntur asperiores temporibus pariatur.</p>
                 </div>
-            <div class="portfolio-border">
-        <h2 class="portfolio-title">Growing Business</h2>
-        <p class="portfolio-category">Приложение</p>                
-            </div>
-        </a>
+                <div class="portfolio-border">
+                    <h2 class="portfolio-title">Growing Business</h2>
+                    <p class="portfolio-category">Приложение</p>
+                </div>
+            </a>
         </li>
     </ul>
+    </div>
+
     </div>
 </section>
 </main>
